@@ -19,7 +19,7 @@ Called the API in views.py and since this is the controller of the Django archit
 template tagging and with necessary adjustments, showed the charts.
 
 
-Host to Heroku:
+# Host to Heroku:
 
 Make changes in the settings.py file to resolve the error of “collectstatic --noinput”
 This line needs to be added:
@@ -37,6 +37,5 @@ Now, in the settings, we need to add the heroku url in the allowed host array.
 In production, debug should be false and the secret key should be different than what we use in the local system.
 
 
-At this step, the environment variable was causing some problems and so the deployment was not successful.
 
 
